@@ -3,7 +3,7 @@ import random
 from sklearn.datasets import load_svmlight_file
 import matplotlib.pyplot as plt
 
-# parameters #
+# parameters ##
 experiment = 1000
 sample = 200
 #max_update = 5000
