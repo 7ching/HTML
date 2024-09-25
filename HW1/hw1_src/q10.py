@@ -55,3 +55,7 @@ plt.xlabel('Number of Updates')
 plt.ylabel('Frequency')
 plt.title('PLA Updates Distribution with 5N Stopping Criterion')
 plt.show()
+
+# finding median number of updates
+median = np.median(update_counts)
+print(f"Median number of updates: {median}")
